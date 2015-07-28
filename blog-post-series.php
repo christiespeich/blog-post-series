@@ -27,10 +27,10 @@ along with Blog Post Series. If not, see https://www.gnu.org/licenses/gpl-2.0.ht
 */
 
 
-if ( file_exists( dirname( __FILE__ ) . '/cmb2/init.php' ) ) {
-	require_once dirname( __FILE__ ) . '/cmb2/init.php';
-} elseif ( file_exists( dirname( __FILE__ ) . '/CMB2/init.php' ) ) {
-	require_once dirname( __FILE__ ) . '/CMB2/init.php';
+if ( file_exists( dirname( __FILE__ ) . '/includes/cmb2/init.php' ) ) {
+	require_once dirname( __FILE__ ) . '/includes/cmb2/init.php';
+} elseif ( file_exists( dirname( __FILE__ ) . '/includes/CMB2/init.php' ) ) {
+	require_once dirname( __FILE__ ) . '/includes/CMB2/init.php';
 }
 
 
